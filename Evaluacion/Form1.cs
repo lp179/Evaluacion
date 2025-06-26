@@ -27,6 +27,14 @@ namespace Evaluacion
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtUsuario.Text) ||
+               string.IsNullOrWhiteSpace(txtContraseña.Text))
+            {
+                MessageBox.Show("Por favor, ingrese su Usuario y Contraseña.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
             string usuario = txtUsuario.Text.Trim();
             string contraseña = txtContraseña.Text.Trim();
 

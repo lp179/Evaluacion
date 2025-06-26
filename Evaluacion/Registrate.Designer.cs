@@ -49,9 +49,9 @@
             this.label1.Location = new System.Drawing.Point(49, 59);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 25);
+            this.label1.Size = new System.Drawing.Size(93, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Usuario:\r\n";
+            this.label1.Text = "*Usuario:\r\n";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -60,9 +60,9 @@
             this.label2.Location = new System.Drawing.Point(49, 110);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 25);
+            this.label2.Size = new System.Drawing.Size(128, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Contraseña:";
+            this.label2.Text = "*Contraseña:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -71,9 +71,9 @@
             this.label3.Location = new System.Drawing.Point(49, 191);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 25);
+            this.label3.Size = new System.Drawing.Size(95, 25);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Nombre:";
+            this.label3.Text = "*Nombre:";
             // 
             // label4
             // 
@@ -91,9 +91,9 @@
             this.label5.Location = new System.Drawing.Point(49, 316);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 25);
+            this.label5.Size = new System.Drawing.Size(86, 25);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Correo:";
+            this.label5.Text = "*Correo:";
             // 
             // label6
             // 
@@ -101,9 +101,9 @@
             this.label6.Location = new System.Drawing.Point(49, 371);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(95, 25);
+            this.label6.Size = new System.Drawing.Size(103, 25);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Telefono:";
+            this.label6.Text = "*Telefono:";
             // 
             // txtUsuario
             // 
@@ -115,9 +115,11 @@
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(190, 105);
+            this.txtContraseña.Location = new System.Drawing.Point(190, 108);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtContraseña.MaxLength = 50;
             this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.Size = new System.Drawing.Size(288, 30);
             this.txtContraseña.TabIndex = 7;
             // 
