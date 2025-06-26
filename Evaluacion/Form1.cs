@@ -51,7 +51,10 @@ namespace Evaluacion
                 if (reader.Read())
                 {
                     MessageBox.Show("Inicio de sesión exitoso");
-                   
+
+                    Productos prod = new Productos();
+                    prod.ShowDialog();
+
                 }
                 else
                 {

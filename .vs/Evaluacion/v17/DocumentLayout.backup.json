@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\evaluacion\\registrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\registrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|c:\\users\\dell 5591\\source\\repos\\evaluacion\\evaluacion\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\evaluacion\\registrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\registrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|c:\\users\\dell 5591\\source\\repos\\evaluacion\\evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|c:\\users\\dell 5591\\source\\repos\\evaluacion\\evaluacion\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|c:\\users\\dell 5591\\source\\repos\\evaluacion\\evaluacion\\registrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\registrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC21E0B3-F3CA-4A36-87B1-F91C054ABF36}|Evaluacion\\Evaluacion.csproj|solutionrelative:evaluacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Form1.cs",
               "RelativeDocumentMoniker": "Evaluacion\\Form1.cs",
@@ -43,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Form1.cs",
               "RelativeDocumentMoniker": "Evaluacion\\Form1.cs",
               "ToolTip": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Form1.cs",
               "RelativeToolTip": "Evaluacion\\Form1.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAjwEkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T00:31:19.122Z",
               "IsPinned": true,
@@ -57,17 +65,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Registrate.cs",
               "DocumentMoniker": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Registrate.cs",
               "RelativeDocumentMoniker": "Evaluacion\\Registrate.cs",
-              "ToolTip": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Registrate.cs*",
-              "RelativeToolTip": "Evaluacion\\Registrate.cs*",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAhwFQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Registrate.cs",
+              "RelativeToolTip": "Evaluacion\\Registrate.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwG4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T00:17:25.398Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registrate.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Registrate.cs",
+              "RelativeDocumentMoniker": "Evaluacion\\Registrate.cs",
+              "ToolTip": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Registrate.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Evaluacion\\Registrate.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:10:36.716Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Bookmark",
@@ -79,14 +100,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Registrate.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Registrate.cs",
-              "RelativeDocumentMoniker": "Evaluacion\\Registrate.cs",
-              "ToolTip": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Registrate.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Evaluacion\\Registrate.cs [Dise\u00F1o]*",
+              "DocumentIndex": 0,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Productos.cs",
+              "RelativeDocumentMoniker": "Evaluacion\\Productos.cs",
+              "ToolTip": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Productos.cs*",
+              "RelativeToolTip": "Evaluacion\\Productos.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAArwCEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T00:10:36.716Z",
+              "WhenOpened": "2025-06-26T16:53:17.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Productos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Productos.cs",
+              "RelativeDocumentMoniker": "Evaluacion\\Productos.cs",
+              "ToolTip": "C:\\Users\\DELL 5591\\source\\repos\\Evaluacion\\Evaluacion\\Productos.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Evaluacion\\Productos.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:44:28.456Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
