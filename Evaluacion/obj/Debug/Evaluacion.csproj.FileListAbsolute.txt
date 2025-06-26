@@ -97,3 +97,4 @@ C:\Users\DELL 5591\source\repos\Evaluacion\Evaluacion\bin\Debug\zh-Hans\Microsof
 C:\Users\DELL 5591\source\repos\Evaluacion\Evaluacion\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\DELL 5591\source\repos\Evaluacion\Evaluacion\obj\Debug\Evaluacion.csproj.Up2Date
 C:\Users\DELL 5591\source\repos\Evaluacion\Evaluacion\obj\Debug\Evaluacion.Productos.resources
+C:\Users\DELL 5591\source\repos\Evaluacion\Evaluacion\obj\Debug\Evaluacion.Opciones.resources

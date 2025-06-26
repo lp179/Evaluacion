@@ -50,7 +50,7 @@ namespace Evaluacion
                 SqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    MessageBox.Show("Inicio de sesión exitoso");
+                   // MessageBox.Show("Inicio de sesión exitoso");
 
                     Productos prod = new Productos();
                     prod.ShowDialog();

@@ -19,6 +19,31 @@ namespace Evaluacion
         {
             InitializeComponent();
         }
+
+        private void AgregarColumnaVerOpciones()
+        {
+            DataGridViewButtonColumn colBoton = new DataGridViewButtonColumn();
+            colBoton.HeaderText = "Opciones";
+            colBoton.Text = "Ver opciones";
+            colBoton.UseColumnTextForButtonValue = true;
+            colBoton.Name = "colVerOpciones";
+
+            if (!dgvProductos.Columns.Contains("colVerOpciones"))
+                dgvProductos.Columns.Add(colBoton);
+        }
+
+        private void dgvProductos_ClickOpciones(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgvProductos.Columns[e.ColumnIndex].Name == "colVerOpciones" && e.RowIndex >= 0)
+            {
+                string IdProd = dgvProductos.Rows[e.RowIndex].Cells["IdProducto"].Value.ToString();
+                string nombreProd = dgvProductos.Rows[e.RowIndex].Cells["Nombre"].Value.ToString();
+
+                Opciones opciones = new Opciones(IdProd, nombreProd);
+                opciones.ShowDialog();
+            }
+        }
+
         private void CargarProductos(string Busqueda = "", int? estado = null)
         {
             string conexion = ConfigurationManager.ConnectionStrings["ConexionDB"].ConnectionString;
@@ -29,7 +54,7 @@ namespace Evaluacion
 
                 //if (Busqueda != "")
                 //{ 
-                string query = @"SELECT CodigoProd, Nombre, Existencia,
+                string query = @"SELECT IdProducto, CodigoProd, Nombre, Existencia,
                                     CASE WHEN Estado = 1 THEN 'Activo' ELSE 'Inactivo' END AS Estado,
                                     NProveedor
                                  FROM Producto
@@ -48,6 +73,9 @@ namespace Evaluacion
                 DataTable tabla = new DataTable();
                 adapter.Fill(tabla);
                 dgvProductos.DataSource = tabla;
+
+                AgregarColumnaVerOpciones();
+
             }
         }
         private void Productos_ini(object sender, EventArgs e)
